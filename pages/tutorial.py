@@ -2,6 +2,8 @@ import streamlit as st
 import pathlib
 from st_image_button import st_image_button
 
+if "page" not in st.session_state:
+    st.session_state.page = 0
 
 def load_css(file_path):
     with open(file_path) as f:
@@ -21,8 +23,8 @@ st.html("""
 """)
 
 st.html("""
-    <div style="background-color: white; padding: 10px; border-radius: 10px; border: 3px solid #FFA100;font-family: 'IBM Plex Sans', sans-serif;">
-        <p style='font-size: 14px;font-weight: bold; line-height: 1.6; text-align: justify; color: #FFA100;'>
+    <div style="background-color: white; padding: 10px; font-family: 'Rockwell Condensed', sans-serif;">
+        <p style='font-size: 20px;font-weight: bold; line-height: 1.6; text-align: justify; color: black;'>
             Use this section of the application to report the actions of your team during a new game. 
             The tool proposed to record all the moments is new and innovative, letting you save every direction that the ball has taken along the match.
             <br><br>
@@ -30,6 +32,35 @@ st.html("""
         </p>
     </div>
 """)
+
+st.html("""
+    <div style='background-color: black; padding: 10px; border-radius: 10px; text-align: left;'>
+        <h1 style='color: white; font-size: 24px;'>TUTORIAL</h1>
+    </div>
+""")
+
+
+
+
+# Lista delle immagini
+tutorial_images = ["im1.jpg", "im2.jpg", "im3.jpg", "im4.jpg","im5.jpg", "im6.jpg", "im7.jpg", "im8.jpg"]
+with st.container(border=True):
+    st.image(tutorial_images[st.session_state.page], use_container_width=True)
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col1:
+    if st.button("⬅️ Indietro", use_container_width=True) and st.session_state.page > 0:
+        st.session_state.page -= 1
+
+with col2:
+    if st.button("⏩ Skip Tutorial", use_container_width=True):
+        st.switch_page("pages/data.py")  # Cambia pagina
+
+with col3:
+    if st.button("➡️ Avanti", use_container_width=True) and st.session_state.page < len(tutorial_images) - 1:
+        st.session_state.page += 1
+
+
 
    
 
