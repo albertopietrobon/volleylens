@@ -1,0 +1,105 @@
+.st-key-bot1 button,
+.st-key-bot2 button,
+.st-key-bot3 button,
+.st-key-bot4 button,
+.st-key-bot5 button,
+.st-key-bot6 button,
+.st-key-bot7 button,
+.st-key-bot8 button,
+.st-key-bot9 button,
+.st-key-bot10 button,
+.st-key-bot11 button,
+.st-key-bot12 button,
+.st-key-bot13 button,
+.st-key-bot14 button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+    height: 60px;
+}
+
+.st-key-bot1 button p,
+.st-key-bot2 button p,
+.st-key-bot3 button p,
+.st-key-bot4 button p,
+.st-key-bot5 button p,
+.st-key-bot6 button p,
+.st-key-bot7 button p,
+.st-key-bot8 button p,
+.st-key-bot9 button p,
+.st-key-bot10 button p,
+.st-key-bot11 button p,
+.st-key-bot12 button p,
+.st-key-bot13 button p,
+.st-key-bot14 button p{
+    color: #000000;
+    font-size: 16px;
+}
+
+.st-key-bot1 button:hover,
+.st-key-bot2 button:hover,
+.st-key-bot3 button:hover,
+.st-key-bot4 button:hover,
+.st-key-bot5 button:hover,
+.st-key-bot6 button:hover,
+.st-key-bot7 button:hover,
+.st-key-bot8 button:hover,
+.st-key-bot9 button:hover,
+.st-key-bot10 button:hover,
+.st-key-bot11 button:hover,
+.st-key-bot12 button:hover,
+.st-key-bot13 button:hover,
+.st-key-bot14 button:hover{
+    background-color: #d68800;
+}
+
+.st-key-bot1 button:hover p,
+.st-key-bot2 button:hover p,
+.st-key-bot3 button:hover p,
+.st-key-bot4 button:hover p,
+.st-key-bot5 button:hover p,
+.st-key-bot6 button:hover p,
+.st-key-bot7 button:hover p,
+.st-key-bot8 button:hover p,
+.st-key-bot9 button:hover p,
+.st-key-bot10 button:hover p,
+.st-key-bot11 button:hover p,
+.st-key-bot12 button:hover p,
+.st-key-bot13 button:hover p,
+.st-key-bot14 button:hover p{
+    color: #000000;
+}
+
+.st-key-bot1 button:focus,
+.st-key-bot2 button:focus,
+.st-key-bot3 button:focus,
+.st-key-bot4 button:focus,
+.st-key-bot5 button:focus,
+.st-key-bot6 button:focus,
+.st-key-bot7 button:focus,
+.st-key-bot8 button:focus,
+.st-key-bot9 button:focus,
+.st-key-bot10 button:focus,
+.st-key-bot11 button:focus,
+.st-key-bot12 button:focus,
+.st-key-bot13 button:focus,
+.st-key-bot14 button:focus{
+    background-color: #d68800;
+}
+
+.st-key-bot1 button:focus p,
+.st-key-bot2 button:focus p,
+.st-key-bot3 button:focus p,
+.st-key-bot4 button:focus p,
+.st-key-bot5 button:focus p,
+.st-key-bot6 button:focus p,
+.st-key-bot7 button:focus p,
+.st-key-bot8 button:focus p,
+.st-key-bot9 button:focus p,
+.st-key-bot10 button:focus p,
+.st-key-bot11 button:focus p,
+.st-key-bot12 button:focus p,
+.st-key-bot13 button:focus p,
+.st-key-bot14 button:focus p{
+    color: #000000;
+}

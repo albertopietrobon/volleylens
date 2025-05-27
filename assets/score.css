@@ -1,0 +1,191 @@
+.st-key-p_scored button{
+    background-color: #02e806;
+    border-radius: 10px;
+    border : #02e806;
+    margin-bottom: 50px !important;
+}
+
+.st-key-p_scored button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.st-key-p_scored button:hover{
+    background-color: #00c803;
+}
+
+.st-key-p_scored button:hover p{
+    color: #000000;
+}
+
+.st-key-p_scored button:focus{
+    background-color: #00c803;
+}
+
+.st-key-p_scored button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.st-key-p_lost button{
+    background-color: #e80202;
+    border-radius: 10px;
+    border : #e80202;
+    margin-bottom: 50px !important;
+}
+
+.st-key-p_lost button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.st-key-p_lost button:hover{
+    background-color: #c80000;
+}
+
+.st-key-p_lost button:hover p{
+    color: #000000;
+}
+
+.st-key-p_lost button:focus{
+    background-color: #c80000;
+}
+
+.st-key-p_lost button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+.st-key-delete_point button{
+    border-radius: 10px;
+    margin-bottom: 300px !important;
+}
+
+.st-key-delete_point button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.st-key-next_set button{
+    border-radius: 10px;
+    margin-bottom: 300px !important;
+}
+
+.st-key-next_set button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.st-key-home button{
+    border-radius: 10px;
+}
+
+.st-key-home button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.st-key-save button{
+    background-color: #0294e8;
+    border-radius: 10px;
+    border : #0294e8;
+}
+
+.st-key-save button p{
+    color: white;
+    font-size: 20px;
+}
+
+.st-key-save button:hover{
+    background-color: #047dc3;
+}
+
+.st-key-save button:hover p{
+    color: white;
+}
+
+.st-key-save button:focus{
+    background-color: #047dc3;
+}
+
+.st-key-save button:focus p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.st-key-download button{
+    background-color: #0294e8;
+    border-radius: 10px;
+    border : #0294e8;
+}
+
+.st-key-download button p{
+    color: white;
+    font-size: 20px;
+}
+
+.st-key-download button:hover{
+    background-color: #047dc3;
+}
+
+.st-key-download button:hover p{
+    color: white;
+}
+
+.st-key-download button:focus{
+    background-color: #047dc3;
+}
+
+.st-key-download button:focus p{
+    color: white;
+}

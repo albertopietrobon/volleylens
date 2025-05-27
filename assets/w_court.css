@@ -1,0 +1,809 @@
+/* Rimuove spazio tra le colonne */
+[data-testid="stHorizontalBlock"] {
+    gap: 0rem !important;
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Colonne senza padding */
+[data-testid="column"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+}
+
+
+[data-testid="stVerticalBlock"] {
+    gap: 0rem !important;
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* CONFIRM BUTTON*/
+.st-key-confirm button{
+    background-color: #FFA100;
+    margin-top: 10% !important;
+}
+
+.st-key-confirm button p{
+    color: #000000;
+    font-size: 16px;
+}
+
+.st-key-confirm button:hover{
+    background-color: #d68800;
+}
+
+.st-key-confirm button:hover p{
+    color: #000000;
+}
+
+.st-key-confirm button:focus{
+    background-color: #d68800;
+}
+
+.st-key-confirm button:focus p{
+    color: #000000;
+}
+
+/* SAVE BUTTON*/
+.st-key-save button{
+    background-color: #FFA100;
+    margin-top: 10% !important;
+}
+
+.st-key-save button p{
+    color: #000000;
+    font-size: 16px;
+}
+
+.st-key-save button:hover{
+    background-color: #d68800;
+}
+
+.st-key-save button:hover p{
+    color: #000000;
+}
+
+.st-key-save button:focus{
+    background-color: #d68800;
+}
+
+.st-key-save button:focus p{
+    color: #000000;
+}
+
+/* BACK BUTTON*/
+.st-key-back button{
+    margin-top: 10% !important;
+}
+
+
+.st-key-butt1 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 3px solid black ;
+    border-left: 3px solid black ;
+    height: 80px;
+}
+
+.st-key-butt1 button p{
+    color: #007c80;
+}
+
+.st-key-butt1 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt1 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt1 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt1 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+.st-key-butt2 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-left: 3px solid black ;
+    border-bottom: 3px solid white ;
+    height: 80px;
+}
+
+.st-key-butt2 button p{
+    color: #007c80;
+}
+
+.st-key-butt2 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt2 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt2 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt2 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt3 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-left: 3px solid black ;
+    border-top: 3px solid white ;
+    border-bottom: 5px solid #bb4b0f;
+    height: 80px;
+}
+
+.st-key-butt3 button p{
+    color: #007c80;
+}
+
+.st-key-butt3 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt3 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt3 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt3 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt4 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-left: 3px solid black ;
+    border-top: 5px solid #bb4b0f ;
+    height: 40px;
+}
+
+.st-key-butt4 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt4 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt4 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt4 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt4 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt5 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-left: 3px solid black ;
+    border-bottom: 3px solid white ;
+    height: 40px;
+}
+
+.st-key-butt5 button p{
+    color: #007c80;
+}
+
+.st-key-butt5 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt5 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt5 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt5 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt6 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-left: 3px solid black ;
+    border-top: 3px solid white ;
+    border-bottom: 3px solid black ;
+    height: 160px;
+}
+
+.st-key-butt6 button p{
+    color: #007c80;
+}
+
+.st-key-butt6 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt6 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt6 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt6 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+
+
+
+.st-key-butt7 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border:none;
+    height: 25px;
+}
+
+.st-key-butt7 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt7 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt7 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt7 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt7 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.st-key-butt8 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 3px solid black ;
+    height: 80px;
+}
+
+.st-key-butt8 button p{
+    color: #007c80;
+}
+
+.st-key-butt8 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt8 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt8 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt8 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+.st-key-butt9 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-bottom: 3px solid white ;
+    height: 80px;
+}
+
+.st-key-butt9 button p{
+    color: #007c80;
+}
+
+.st-key-butt9 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt9 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt9 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt9 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt10 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 3px solid white ;
+    border-bottom: 5px solid #bb4b0f;
+    height: 80px;
+}
+
+.st-key-butt10 button p{
+    color: #007c80;
+}
+
+.st-key-butt10 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt10 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt10 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt10 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt11 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 5px solid #bb4b0f ;
+    height: 40px;
+}
+
+.st-key-butt11 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt11 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt11 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt11 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt11 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt12 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-bottom: 3px solid white ;
+    height: 40px;
+}
+
+.st-key-butt12 button p{
+    color: #007c80;
+}
+
+.st-key-butt12 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt12 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt12 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt12 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt13 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 3px solid white ;
+    border-bottom: 3px solid black ;
+    height: 160px;
+}
+
+.st-key-butt13 button p{
+    color: #007c80;
+}
+
+.st-key-butt13 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt13 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt13 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt13 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+
+
+
+.st-key-butt14 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border:none;
+    height: 25px;
+}
+
+.st-key-butt14 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt14 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt14 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt14 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt14 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.st-key-butt15 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-top: 3px solid black ;
+    border-right: 3px solid black ;
+    height: 80px;
+}
+
+.st-key-butt15 button p{
+    color: #007c80;
+}
+
+.st-key-butt15 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt15 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt15 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt15 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+.st-key-butt16 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-right: 3px solid black ;
+    border-bottom: 3px solid white ;
+    height: 80px;
+}
+
+.st-key-butt16 button p{
+    color: #007c80;
+}
+
+.st-key-butt16 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt16 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt16 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt16 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt17 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-right: 3px solid black ;
+    border-top: 3px solid white ;
+    border-bottom: 5px solid #bb4b0f;
+    height: 80px;
+}
+
+.st-key-butt17 button p{
+    color: #007c80;
+}
+
+.st-key-butt17 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt17 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt17 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt17 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt18 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-right: 3px solid black ;
+    border-top: 5px solid #bb4b0f ;
+    height: 40px;
+}
+
+.st-key-butt18 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt18 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt18 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt18 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt18 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt19 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-right: 3px solid black ;
+    border-bottom: 3px solid white ;
+    height: 40px;
+}
+
+.st-key-butt19 button p{
+    color: #007c80;
+}
+
+.st-key-butt19 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt19 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt19 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt19 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+.st-key-butt20 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border-right: 3px solid black ;
+    border-top: 3px solid white ;
+    border-bottom: 3px solid black ;
+    height: 160px;
+}
+
+.st-key-butt20 button p{
+    color: #007c80;
+}
+
+.st-key-butt20 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt20 button:hover p{
+    color: hsl(182, 100%, 18%);
+}
+
+.st-key-butt20 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt20 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+
+
+
+
+
+
+
+.st-key-butt21 button{
+    background-color: #007c80;
+    border-radius: 0%;
+    border:none;
+    height: 25px;
+}
+
+.st-key-butt21 button p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt21 button:hover{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt21 button:hover p{
+    color: hsl(182, 100%, 37%);
+}
+
+.st-key-butt21 button:focus{
+    background-color: hsl(182, 100%, 18%);
+    border: none
+}
+
+.st-key-butt21 button:focus p{
+    color: hsl(182, 100%, 18%);
+}
+

@@ -1,0 +1,148 @@
+
+
+
+.st-key-new_game button{
+    background-color: #FFA100;
+    border-radius: 20px 0px 0px 20px;
+    border : #FFA100;
+    height: 200px;
+    margin-bottom: 50px !important;
+    text-align: left;
+}
+
+.st-key-new_game button p{
+    color: #000000;
+    font-size: 12px;
+    font-family: "Rockwell", sans-serif;
+    text-align: left;
+}
+
+.st-key-new_game button:hover{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-new_game button:hover p{
+    color: #000000;
+}
+
+.st-key-new_game button:focus{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-new_game button:focus p{
+    color: #000000;
+}
+
+.st-key-new_game button p:first-child {
+    font-size: 28px; /* Titolo più grande */
+    font-weight: bold; /* Testo in grassetto */
+    
+}
+
+
+
+
+
+
+
+.st-key-player_st button{
+    background-color: #FFA100;
+    border-radius: 0px 20px 20px 0px;
+    border : #FFA100;
+    height: 200px;
+    margin-bottom: 50px !important;
+    text-align: right;
+}
+
+.st-key-player_st button p{
+    color: #000000;
+    font-size: 12px;
+    font-family: "Rockwell", sans-serif;
+    text-align: right;
+}
+
+.st-key-player_st button:hover{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-player_st button:hover p{
+    color: #000000;
+}
+
+.st-key-player_st button:focus{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-player_st button:focus p{
+    color: #000000;
+}
+
+.st-key-player_st button p:first-child {
+    font-size: 28px; /* Titolo più grande */
+    font-weight: bold; /* Testo in grassetto */
+    
+}
+
+
+
+
+
+
+
+
+
+.st-key-team_st button{
+    background-color: #FFA100;
+    border-radius: 20px 0px 0px 20px;
+    border : #FFA100;
+    height: 200px;
+    margin-bottom: 50px !important;
+    text-align: left;
+}
+
+
+.st-key-team_st button p{
+    color: #000000;
+    font-size: 12px;
+    font-family: "Rockwell", sans-serif;
+    text-align: left;
+}
+
+
+.st-key-team_st button:hover{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-team_st button:hover p{
+    color: #000000;
+}
+
+.st-key-team_st button:focus{
+    background-color: white;
+    border: 2px solid #FFA100;
+}
+
+.st-key-team_st button:focus p{
+    color: #000000;
+}
+
+.st-key-team_st button p:first-child {
+    font-size: 28px; /* Titolo più grande */
+    font-weight: bold; /* Testo in grassetto */
+    
+}
+
+
+
+
+
+
+
+
+
+

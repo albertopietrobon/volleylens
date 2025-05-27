@@ -1,0 +1,103 @@
+.st-key-team_point button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+    height: 70px;
+}
+
+.st-key-team_point button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.st-key-team_point button:hover{
+    background-color: #d68800;
+}
+
+.st-key-team_point button:hover p{
+    color: #000000;
+}
+
+.st-key-team_point button:focus{
+    background-color: #d68800;
+}
+
+.st-key-team_point button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+.st-key-opp_error button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+    height: 70px;
+}
+
+.st-key-opp_error button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.st-key-opp_error button:hover{
+    background-color: #d68800;
+}
+
+.st-key-opp_error button:hover p{
+    color: #000000;
+}
+
+.st-key-opp_error button:focus{
+    background-color: #d68800;
+}
+
+.st-key-opp_error button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.st-key-unknown button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+    height: 70px;
+}
+
+.st-key-unknown button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.st-key-unknown button:hover{
+    background-color: #d68800;
+}
+
+.st-key-unknown button:hover p{
+    color: #000000;
+}
+
+.st-key-unknown button:focus{
+    background-color: #d68800;
+}
+
+.st-key-unknown button:focus p{
+    color: #000000;
+}

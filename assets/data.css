@@ -1,0 +1,73 @@
+.st-key-report button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+}
+
+.st-key-report button p{
+    color: #000000;
+    font-size: 18px;
+}
+
+.st-key-report button:hover{
+    background-color: #d68800;
+}
+
+.st-key-report button:hover p{
+    color: #000000;
+}
+
+.st-key-report button:focus{
+    background-color: #d68800;
+}
+
+.st-key-report button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+.st-key-save button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+}
+
+.st-key-save button p{
+    color: #000000;
+    font-size: 18px;
+}
+
+.st-key-save button:hover{
+    background-color: #d68800;
+}
+
+.st-key-save button:hover p{
+    color: #000000;
+}
+
+.st-key-save button:focus{
+    background-color: #d68800;
+}
+
+.st-key-save button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+.st-key-back button p{
+    color: #000000;
+    font-size: 18px;
+}
