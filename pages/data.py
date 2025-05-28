@@ -43,13 +43,23 @@ if st.session_state.step == 0:
 
 
     with tab1:
-        st.session_state.match_date = st.date_input("Select the game's date from the calendar:", st.session_state.match_date)
+        st.session_state.match_date = st.date_input("Select the game's date from the calendar:", st.session_state.match_date, key="data")
     with tab2:
-        st.session_state.game_opp = st.radio("Select the opponent team:", st.session_state.opp_teams)
+        st.session_state.game_opp = st.radio("Select the opponent team:", st.session_state.opp_teams, key="radio")
     with tab3:
         st.write("Details of available players:") 
         st.dataframe(st.session_state.roster)
-        st.session_state.game_roster = st.multiselect("Select all the 14 players for the match:", st.session_state.roster['Name'], placeholder="Choose a player...")
+        st.markdown(
+            """
+        <style>
+        span[data-baseweb="tag"] {
+        background-color: #FFA100 !important;
+        }
+        </style>
+        """,
+            unsafe_allow_html=True,
+        )
+        st.session_state.game_roster = st.multiselect("Select all the 14 players for the match:", st.session_state.roster['Name'], placeholder="Choose a player...", key = "selezione")
 
     col1,col2,col3 = st.columns(3,vertical_alignment="center")
     #with col1:
@@ -61,7 +71,7 @@ if st.session_state.step == 0:
 if st.session_state.step == 1:
     if len(st.session_state.game_roster) != 14 : #ATTENZIONE: CAMBIARE NUMERO DI GIOCATORI DEL ROSTER
         st.warning("You are missing required information. Please finish to fill all the fields, making sure all the 14 players are selected.")
-        back = st.button("Back", on_click=click_step, args=[0])
+        back = st.button("Back", on_click=click_step, args=[0], key = "back2")
     else:
         st.write(f">Game date: {st.session_state.match_date}")
         st.write(f">Opponent team: {st.session_state.game_opp}")
@@ -73,8 +83,8 @@ if st.session_state.step == 1:
         with col3:
             save = st.button("Save", on_click=click_step, args=[3], key="save", use_container_width=True)
 
-if st.session_state.step == 2:
-    return_home()
+#if st.session_state.step == 2:
+    #return_home()
 
 if st.session_state.step == 3:
     # Formatta la data come stringa (es. "13-04-2025") e salvala in session_state

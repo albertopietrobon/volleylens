@@ -1,3 +1,4 @@
+
 .st-key-report button{
     background-color: #FFA100;
     border-radius: 10px;
@@ -99,5 +100,43 @@
 }
 
 .st-key-back button:focus p{
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+.st-key-back2 button{
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.st-key-back2 button p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.st-key-back2 button:hover{
+    background-color: white;
+    border:#FFA100
+    
+}
+
+.st-key-back2 button:hover p{
+    color: #000000;
+}
+
+.st-key-back2 button:focus{
+    background-color: white;
+    border:#FFA100;
+}
+
+.st-key-back2 button:focus p{
     color: #000000;
 }
