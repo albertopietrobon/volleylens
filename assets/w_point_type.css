@@ -3,11 +3,13 @@
     border-radius: 10px;
     border : #FFA100;
     height: 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-team_point button p{
     color: #000000;
     font-size: 20px;
+    font-weight:bold;
 }
 
 .st-key-team_point button:hover{
@@ -39,11 +41,13 @@
     border-radius: 10px;
     border : #FFA100;
     height: 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-opp_error button p{
     color: #000000;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-opp_error button:hover{
@@ -79,11 +83,13 @@
     border-radius: 10px;
     border : #FFA100;
     height: 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-unknown button p{
     color: #000000;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-unknown button:hover{
@@ -101,3 +107,38 @@
 .st-key-unknown button:focus p{
     color: #000000;
 }
+
+
+
+.st-key-back button{
+    margin-top: 10% !important;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.st-key-back button p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.st-key-back button:hover{
+    background-color: white;
+    border:#FFA100
+    
+}
+
+.st-key-back button:hover p{
+    color: #000000;
+}
+
+.st-key-back button:focus{
+    background-color: white;
+    border:#FFA100;
+}
+
+.st-key-back button:focus p{
+    color: #000000;
+}
+

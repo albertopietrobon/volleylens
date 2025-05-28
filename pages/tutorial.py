@@ -14,7 +14,9 @@ load_css(css_path)
 
 
 if st_image_button("","home.png","50px","outlined"):    
+    st.session_state.page = 0
     st.switch_page("pages/start.py")
+    
 
 st.html("""
     <div style='background-color: #FFA100; padding: 20px; border-radius: 10px; text-align: center;'>
@@ -34,8 +36,8 @@ st.html("""
 """)
 
 st.html("""
-    <div style='background-color: black; padding: 10px; border-radius: 10px; text-align: left;'>
-        <h1 style='color: white; font-size: 24px;'>TUTORIAL</h1>
+    <div style='background-color: grey; padding: 10px; border-radius: 10px; text-align: left;'>
+        <h1 style='color: white; font-size: 24px;'>Tutorial</h1>
     </div>
 """)
 
@@ -45,21 +47,24 @@ st.html("""
 # Lista delle immagini
 tutorial_images = ["im1.jpg", "im2.jpg", "im3.jpg", "im4.jpg","im5.jpg", "im6.jpg", "im7.jpg", "im8.jpg"]
 with st.container(border=True):
-    st.image(tutorial_images[st.session_state.page], use_container_width=True)
+    immagine = st.image(tutorial_images[st.session_state.page], use_container_width=True)
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    if st.button("⬅️ Indietro", use_container_width=True) and st.session_state.page > 0:
+    if st.button("Back", use_container_width=True, key="indietro") and st.session_state.page > 0:
         st.session_state.page -= 1
+        st.rerun()
 
 with col2:
-    if st.button("⏩ Skip Tutorial", use_container_width=True):
+    if st.button("Skip", use_container_width=True, key="skip"):
+        st.session_state.page = 0
         st.switch_page("pages/data.py")  # Cambia pagina
 
+av = ">>"
 with col3:
-    if st.button("➡️ Avanti", use_container_width=True) and st.session_state.page < len(tutorial_images) - 1:
+    if st.button(f"Next", use_container_width=True, key="avanti") and st.session_state.page < len(tutorial_images) - 1:
         st.session_state.page += 1
-
+        st.rerun()
 
 
    

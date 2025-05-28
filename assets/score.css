@@ -3,11 +3,13 @@
     border-radius: 10px;
     border : #02e806;
     margin-bottom: 50px !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-p_scored button p{
-    color: #000000;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-p_scored button:hover{
@@ -15,7 +17,7 @@
 }
 
 .st-key-p_scored button:hover p{
-    color: #000000;
+    color: white;
 }
 
 .st-key-p_scored button:focus{
@@ -23,7 +25,7 @@
 }
 
 .st-key-p_scored button:focus p{
-    color: #000000;
+    color: white;
 }
 
 
@@ -42,11 +44,13 @@
     border-radius: 10px;
     border : #e80202;
     margin-bottom: 50px !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-p_lost button p{
-    color: #000000;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-p_lost button:hover{
@@ -54,7 +58,7 @@
 }
 
 .st-key-p_lost button:hover p{
-    color: #000000;
+    color: white;
 }
 
 .st-key-p_lost button:focus{
@@ -62,8 +66,9 @@
 }
 
 .st-key-p_lost button:focus p{
-    color: #000000;
+    color: white;
 }
+
 
 
 
@@ -77,12 +82,37 @@
 .st-key-delete_point button{
     border-radius: 10px;
     margin-bottom: 300px !important;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 .st-key-delete_point button p{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+.st-key-delete_point button:hover{
+    background-color: white;
+    border:#FFA100
+    
+}
+
+.st-key-delete_point button:hover p{
+    color: #000000;
+}
+
+.st-key-delete_point button:focus{
+    background-color: white;
+    border:#FFA100;
+}
+
+.st-key-delete_point button:focus p{
+    color: #000000;
+}
+
+
 
 
 
@@ -96,12 +126,40 @@
 .st-key-next_set button{
     border-radius: 10px;
     margin-bottom: 300px !important;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 .st-key-next_set button p{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+.st-key-next_set button:hover{
+    background-color: white;
+    border:#FFA100
+    
+}
+
+.st-key-next_set button:hover p{
+    color: #000000;
+}
+
+.st-key-next_set button:focus{
+    background-color: white;
+    border:#FFA100;
+}
+
+.st-key-next_set button:focus p{
+    color: #000000;
+}
+
+
+
+
+
 
 
 
@@ -132,11 +190,13 @@
     background-color: #0294e8;
     border-radius: 10px;
     border : #0294e8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-save button p{
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-save button:hover{
@@ -167,11 +227,13 @@
     background-color: #0294e8;
     border-radius: 10px;
     border : #0294e8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .st-key-download button p{
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .st-key-download button:hover{

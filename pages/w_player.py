@@ -140,6 +140,6 @@ st.write("\n\n")
 st.write("\n\n")
 
 # Tasto score page
-if st.button("Back"):
+if st.button("Back", key = "back"):
     st.session_state.point_scored = st.session_state.point_scored - 1
     st.switch_page("pages/score.py")

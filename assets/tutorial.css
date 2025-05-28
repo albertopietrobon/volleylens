@@ -1,1 +1,99 @@
+.st-key-avanti button{
+    background-color: grey;
+    border-radius: 10px;
+    border : grey;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
 
+.st-key-avanti button p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.st-key-avanti button:hover{
+    background-color: rgb(97, 96, 96);
+}
+
+.st-key-avant button:hover p{
+    color: white;
+}
+
+.st-key-avanti button:focus{
+    background-color: rgb(97, 96, 96);
+}
+
+.st-key-avanti button:focus p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.st-key-indietro button{
+    background-color: grey;
+    border-radius: 10px;
+    border : grey;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.st-key-indietro button p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.st-key-indietro button:hover{
+    background-color: rgb(97, 96, 96);
+}
+
+.st-key-indietro button:hover p{
+    color: white;
+}
+
+.st-key-indietro button:focus{
+    background-color: rgb(97, 96, 96);
+}
+
+.st-key-indietro button:focus p{
+    color: white;
+}
+
+
+
+
+
+
+
+.st-key-skip button{
+    background-color: #FFA100;
+    border-radius: 10px;
+    border : #FFA100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.st-key-skip button p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.st-key-skip button:hover{
+    background-color: #d68800;
+}
+
+.st-key-skip button:hover p{
+    color: #000000;
+}
+
+.st-key-skip button:focus{
+    background-color: #d68800;
+}
+
+.st-key-skip button:focus p{
+    color: #000000;
+}

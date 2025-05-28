@@ -49,7 +49,7 @@ with col3:
     opp = Image.open(f"{st.session_state.game_opp}.png")
     st.image(opp,use_container_width=True)
 
-col4, col5, col6, col7, col8 = st.columns(5, vertical_alignment='center')
+col4, col5, col6, col7, col8 = st.columns([0.1,0.35,0.1,0.35,0.1], vertical_alignment='center')
 with col5:
     if st.button("Point scored", key="p_scored", use_container_width=True):
         st.session_state.point_scored = st.session_state.point_scored + 1
