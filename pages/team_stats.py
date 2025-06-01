@@ -1012,7 +1012,7 @@ def make_player_radar_chart(player_name, stats):
         theta=angles,
         fill='toself',
         name='Ideal performance',
-        line=dict(color='green'),  # Colore della linea per la performance ideale.
+        line=dict(color='#FFA100'),  # Colore della linea per la performance ideale.
         opacity=0.2 #Possibilità di aggiungere trasparenza
     ))
 
@@ -1021,7 +1021,7 @@ def make_player_radar_chart(player_name, stats):
         theta=angles,
         fill='toself',
         name=player_name,
-        line=dict(color='green'),
+        line=dict(color='#FFA100'),
     ))
 
     fig.update_layout(
@@ -1059,7 +1059,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name='Ideal performance',
-        line=dict(color='green'),  # Colore della linea per la performance ideale.
+        line=dict(color='#FFA100'),  # Colore della linea per la performance ideale.
         opacity=0.2 #Possibilità di aggiungere trasparenza
     ))
 
@@ -1068,7 +1068,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name=player_name,
-        line=dict(color='green'),
+        line=dict(color="#FFA100"),
     ))
 
     fig.add_trace(go.Scatterpolar(
@@ -1076,7 +1076,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name=player_2_name,
-        line=dict(color='orange'),
+        line=dict(color='#00BBFF'),
         opacity=0.5
     ))
 
@@ -2030,8 +2030,8 @@ if st.session_state.fundamental_type == "overall":
             df2 = pd.DataFrame(player_stats_single_2)
             df2['Name'] = st.session_state.player_2
 
-            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="green",size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
-            chart2 = alt.Chart(pd.DataFrame(df2)).mark_circle(color="orange",size=100).encode(x=x_var, y=y_var, tooltip=["Name",x_var,y_var])
+            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="#FFA100",size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
+            chart2 = alt.Chart(pd.DataFrame(df2)).mark_circle(color="#00BBFF",size=100).encode(x=x_var, y=y_var, tooltip=["Name",x_var,y_var])
 
             combined_chart = alt.layer(chart1, chart2).interactive()
 
@@ -2073,7 +2073,7 @@ if st.session_state.fundamental_type == "overall":
             df1 = pd.DataFrame(team_stats_single)
             df1['Name'] = "Team"
 
-            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="green", size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
+            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="#FFA100", size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
             
             st.altair_chart(chart1)
             

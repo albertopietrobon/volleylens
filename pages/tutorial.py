@@ -36,7 +36,7 @@ st.html("""
 """)
 
 st.html("""
-    <div style='background-color: grey; padding: 10px; border-radius: 10px; text-align: left;'>
+    <div style='background-color: #C7C7C7; padding: 10px; border-radius: 10px; text-align: left;'>
         <h1 style='color: white; font-size: 24px;'>Tutorial</h1>
     </div>
 """)

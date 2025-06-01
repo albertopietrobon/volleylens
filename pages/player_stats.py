@@ -1013,7 +1013,7 @@ def make_player_radar_chart(player_name, stats):
         theta=angles,
         fill='toself',
         name='Ideal performance',
-        line=dict(color='green'),  # Colore della linea per la performance ideale.
+        line=dict(color='#FFA100'),  # Colore della linea per la performance ideale.
         opacity=0.2 #Possibilità di aggiungere trasparenza
     ))
 
@@ -1022,7 +1022,7 @@ def make_player_radar_chart(player_name, stats):
         theta=angles,
         fill='toself',
         name=player_name,
-        line=dict(color='green'),
+        line=dict(color='#FFA100'),
     ))
 
     fig.update_layout(
@@ -1062,7 +1062,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name='Ideal performance',
-        line=dict(color='green'),  # Colore della linea per la performance ideale.
+        line=dict(color='#FFA100'),  # Colore della linea per la performance ideale.
         opacity=0.2 #Possibilità di aggiungere trasparenza
     ))
 
@@ -1071,7 +1071,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name=player_name,
-        line=dict(color='green'),
+        line=dict(color='#FFA100'),
     ))
 
     fig.add_trace(go.Scatterpolar(
@@ -1079,7 +1079,7 @@ def make_player_2_radar_chart(player_name,player_2_name, stats, stats_2):
         theta=angles,
         fill='toself',
         name=player_2_name,
-        line=dict(color='orange'),
+        line=dict(color='#00BBFF'),
         opacity=0.5
     ))
 
@@ -1333,7 +1333,7 @@ st.html("""
 st.session_state.player = st.selectbox("Select a player:",st.session_state.roster['Name'], placeholder="Select a player...")
 
 #PLAYER DATA
-immagine,dati = st.columns(2, vertical_alignment='center',border=False)
+immagine,dati = st.columns(2,gap='large', vertical_alignment='center',border=False)
 
 with immagine:
 
@@ -1346,7 +1346,14 @@ with dati:
     tab_dati = tab_dati[tab_dati['Name'] == st.session_state.player]
     tab_dati = pd.DataFrame(tab_dati.T)
     
-    st.markdown(tab_dati.style.hide(axis = 1).to_html(), unsafe_allow_html = True)
+    styled_tab_dati = tab_dati.style.set_table_styles([
+        {'selector': 'th', 'props': [('background-color', "#FFA20040"), ('color', 'black'), ('height', '45px'), ('width', '250px')]},  # Intestazioni normali
+        {'selector': 'td', 'props': [('background-color', 'white'), ('color', 'black'), ('height', '45px'), ('width', '150px')]},  # Seconda colonna con sfondo bianco
+    ])
+
+    # Conversione in HTML per renderlo in Streamlit
+    st.markdown(styled_tab_dati.hide(axis=1).to_html(), unsafe_allow_html=True)
+    #st.markdown(tab_dati.style.hide(axis = 1).to_html(), unsafe_allow_html = True)
     
     
 
@@ -1986,8 +1993,8 @@ if st.session_state.fundamental_type == "overall":
             df2 = pd.DataFrame(player_stats_single_2)
             df2['Name'] = st.session_state.player_2
 
-            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="green",size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
-            chart2 = alt.Chart(pd.DataFrame(df2)).mark_circle(color="orange",size=100).encode(x=x_var, y=y_var, tooltip=["Name",x_var,y_var])
+            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="#FFA100",size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
+            chart2 = alt.Chart(pd.DataFrame(df2)).mark_circle(color="#00BBFF",size=100).encode(x=x_var, y=y_var, tooltip=["Name",x_var,y_var])
 
             combined_chart = alt.layer(chart1, chart2).interactive()
 
@@ -2031,7 +2038,7 @@ if st.session_state.fundamental_type == "overall":
             df1 = pd.DataFrame(player_stats_single)
             df1['Name'] = st.session_state.player
 
-            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="green", size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
+            chart1 = alt.Chart(pd.DataFrame(df1)).mark_circle(color="#FFA100", size=100).encode(x=x_var, y=y_var,tooltip=["Name",x_var,y_var])
             
             st.altair_chart(chart1)
             
