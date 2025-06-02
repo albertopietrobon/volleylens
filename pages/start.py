@@ -42,7 +42,7 @@ with im1:
 im2,bot2 = st.columns([0.3,0.7])
 with im2:
     player = Image.open("player.jpg")
-    player = player.resize((player.width, 1050)) 
+    player = player.resize((player.width, 725)) 
     st.image(player,use_container_width=True)
 with bot2:
     player_stats = st.button("**PLAYER STATS**\n\nLook at the statistics of your players focusing on the main fundamentals to prepare your future matches with deeper insights.",key="player_st",use_container_width=True)
@@ -51,7 +51,7 @@ with bot3:
     game_history = st.button("**TEAM STATS**\n\nLook at the statistics of your team focusing on the points and errors occured during previous games.",key="team_st",use_container_width=True)
 with im3:
     team = Image.open("team.jpg")
-    team = team.resize((team.width, 1050)) 
+    team = team.resize((team.width, 790)) 
     st.image(team,use_container_width=True)
 
 
